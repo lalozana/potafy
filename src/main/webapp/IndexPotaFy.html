@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Index - PotaFy</title>
+</head>
+<body>
+<header><h1>PotaFy</h1></header>
+<h2>Inicio Sesión</h2>
+
+
+	<main>
+		<form action="IniciarSesion" method="post">
+			<div>
+			<label for="txtNombre">Username:</label> 
+			<input type="text" id="txtNombre" placeholder="Admin" name="nombreUsuario"/>
+			</div>
+			
+			<div>
+			<label for="txtContraseña">Contraseña:</label> 
+			<input type="password" id="txtContraseña" name="clave" required="required"/>
+		</div>
+			
+
+		<input type="submit" value="INICIAR SESIÓN" id="botonEnviar" />
+		
+		<div>
+		Eres nuevo? Regístrate <a href="registro.html">haciendo click aquí</a>
+		</div>
+		
+		
+		<div class="error" id="error"></div>
+		</form>
+	</main>
+
+	<footer>&copy;Made by Paula for PotaFy</footer>
+
+
+</body>
+</html>

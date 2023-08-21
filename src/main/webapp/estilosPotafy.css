@@ -1,0 +1,150 @@
+@charset "UTF-8";
+
+body {
+	font-family: sans-serif;
+	background-color: #54CFD6;
+}
+
+#cabeceraRestoPaginas h1{
+	text-align: left;
+	margin-left: 30px;
+	color: #27187e;
+	height: 3cm;
+}
+
+h1 {
+	/*text-align: center;*/
+	/*text-align: left;
+	margin-left: 30px;*/
+	color: #5B54D6;
+	height: 3cm;
+}
+
+h2 {
+	/*text-align: center;*/
+	color: #27187e;
+	height: 1.5cm;
+}
+
+header {
+	display: flex;
+	justify-content: space-around;
+}
+
+/*.cabeceraInicioSesion h2 {
+	text-align: center;
+	color: #27187e;
+	height: 1.5cm;
+}
+
+.cabeceraRestoPaginas h2{
+	text-align: right;
+	margin-right: 30px;
+	color: #27187e;
+	height: 1.5cm;
+}*/
+
+
+/*.cabeceraRestoPaginas h3 {
+	text-align: left;
+	margin-left: 30px;
+	color: #27187e;
+	height: 3cm;
+}*/
+
+ h3 {
+	text-align: right;
+	margin-right: 30px;
+	color: #27187e;
+	height: 1.5cm;
+	padding-left: 15px;
+}
+
+ h4 {
+	text-align: center;
+	color: #27187e;
+	height: 1cm;
+}
+
+main {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	flex-wrap: wrap;
+	align-items: center;
+	margin-top: 25px;
+}
+
+nav ul {
+	list-style: none;
+	padding-bottom: 2em;
+	color: #27187e 
+	
+}
+
+form {
+	/*color: #fed9b7;*/
+	text-align: left;
+	/*display: flex;
+	flex-direction: column;*/
+	border: solid transparent 5px ;
+	/*border-radius: 5px;*/
+	/*border-image: radial-gradient(to bottom, #aeb8fe 0%, #00b4d8 100%) 1; */
+	background-color: white;
+	padding: 50px;
+
+}
+
+[type="submit"] {
+	/*text-align: center;*/
+	font-weight: bold;
+	background-color:#ff8600;
+	color: white;
+	height: 40px;
+	width: 50%;
+	margin-left: 80px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	border-style: none;
+	border-radius: 5px;
+}
+
+#mensajeCancionSubida {
+	text-align: center;
+	color:  #27187e;
+	text-decoration: underline #ff8600;
+}
+
+input {
+	margin-bottom: 10px;
+}
+
+#label {
+	color:  #27187e;
+}
+
+.imprimirCancionesBusqueda ul{
+	list-style: none;
+	color:  #27187e;
+	border: 1px solid black;
+	
+}
+
+#divLetraCancion {
+	text-align: center;
+	
+}
+
+[type="button"] {
+	background-color:#aeb8fe;
+	color: #ff8600;
+	border-style: none;
+	border-radius: 5px;
+}
+
+footer {
+	color: #ff8600;
+	text-align: center;
+	text-decoration: blink;
+	margin: 60px;
+}
